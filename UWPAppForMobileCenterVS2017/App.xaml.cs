@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.Azure.Mobile;
+using Microsoft.Azure.Mobile.Analytics;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -40,10 +42,10 @@ namespace UWPAppForMobileCenterVS2017
         protected override void OnLaunched(LaunchActivatedEventArgs e)
         {
             Frame rootFrame = Window.Current.Content as Frame;
-
-            // Не повторяйте инициализацию приложения, если в окне уже имеется содержимое,
-            // только обеспечьте активность окна
-            if (rootFrame == null)
+			MobileCenter.Start("cd90f55c-a058-42eb-bcf7-10016ce897ea", typeof(Analytics));
+			// Не повторяйте инициализацию приложения, если в окне уже имеется содержимое,
+			// только обеспечьте активность окна
+			if (rootFrame == null)
             {
                 // Создание фрейма, который станет контекстом навигации, и переход к первой странице
                 rootFrame = new Frame();
