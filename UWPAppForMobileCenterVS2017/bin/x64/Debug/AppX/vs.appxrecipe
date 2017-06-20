@@ -31,13 +31,13 @@
     <AppXManifest Include="D:\Mobile Center\UWPAppForMobileCenterVS2017\UWPAppForMobileCenterVS2017\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-20T05:40:17.084</Modified>
+      <Modified>2017-06-20T05:46:30.789</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Mobile Center\UWPAppForMobileCenterVS2017\UWPAppForMobileCenterVS2017\bin\x64\Debug\UWPAppForMobileCenterVS2017.exe">
       <PackagePath>entrypoint\UWPAppForMobileCenterVS2017.exe</PackagePath>
-      <Modified>2017-06-20T05:40:16.803</Modified>
+      <Modified>2017-06-20T05:46:30.500</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\1\.nuget\packages\microsoft.azure.mobile.crashes\0.12.0\build\uap10.0\..\..\runtimes\win10-x64\native\WatsonRegistrationUtility.dll">
       <PackagePath>WatsonRegistrationUtility.dll</PackagePath>
@@ -612,7 +612,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Mobile Center\UWPAppForMobileCenterVS2017\UWPAppForMobileCenterVS2017\bin\x64\Debug\Core\UWPAppForMobileCenterVS2017.exe">
       <PackagePath>UWPAppForMobileCenterVS2017.exe</PackagePath>
-      <Modified>2017-06-20T05:40:17.081</Modified>
+      <Modified>2017-06-20T05:46:30.786</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
