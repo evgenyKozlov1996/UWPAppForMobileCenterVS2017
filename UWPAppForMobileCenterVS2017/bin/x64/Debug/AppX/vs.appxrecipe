@@ -31,13 +31,13 @@
     <AppXManifest Include="D:\Mobile Center\UWPAppForMobileCenterVS2017\UWPAppForMobileCenterVS2017\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-20T04:56:41.457</Modified>
+      <Modified>2017-06-20T05:19:42.526</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Mobile Center\UWPAppForMobileCenterVS2017\UWPAppForMobileCenterVS2017\bin\x64\Debug\UWPAppForMobileCenterVS2017.exe">
       <PackagePath>entrypoint\UWPAppForMobileCenterVS2017.exe</PackagePath>
-      <Modified>2017-06-20T04:56:35.513</Modified>
+      <Modified>2017-06-20T05:19:41.682</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\1\.nuget\packages\Microsoft.Azure.Mobile\0.12.0\lib\uap10.0\Microsoft.Azure.Mobile.dll">
       <PackagePath>Microsoft.Azure.Mobile.dll</PackagePath>
@@ -600,7 +600,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Mobile Center\UWPAppForMobileCenterVS2017\UWPAppForMobileCenterVS2017\bin\x64\Debug\Core\UWPAppForMobileCenterVS2017.exe">
       <PackagePath>UWPAppForMobileCenterVS2017.exe</PackagePath>
-      <Modified>2017-06-20T04:56:41.445</Modified>
+      <Modified>2017-06-20T05:19:42.513</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

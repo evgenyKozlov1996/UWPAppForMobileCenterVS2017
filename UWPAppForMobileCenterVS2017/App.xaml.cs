@@ -1,6 +1,7 @@
 ﻿using Microsoft.Azure.Mobile;
 using Microsoft.Azure.Mobile.Analytics;
 using Microsoft.Azure.Mobile.Push;
+using Microsoft.Azure.Mobile.Crashes;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -76,7 +77,7 @@ namespace UWPAppForMobileCenterVS2017
                 // Обеспечение активности текущего окна
                 Window.Current.Activate();
 				MobileCenter.SetCountryCode("alb");
-				MobileCenter.Start("cd90f55c-a058-42eb-bcf7-10016ce897ea", typeof(Analytics), typeof(Push));
+				MobileCenter.Start("cd90f55c-a058-42eb-bcf7-10016ce897ea", typeof(Analytics), typeof(Push), typeof(Crashes));
 			}
         }
 
