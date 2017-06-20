@@ -8,8 +8,8 @@
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
     <SolutionConfiguration>Debug|x64</SolutionConfiguration>
     <PackageArchitecture>x64</PackageArchitecture>
-    <PackageIdentityName>03c8031b-ace8-4bca-828b-ff144c3fb020</PackageIdentityName>
-    <PackageIdentityPublisher>CN=1</PackageIdentityPublisher>
+    <PackageIdentityName>af940c3b-0bf1-4b97-a217-50ef9eb7358b</PackageIdentityName>
+    <PackageIdentityPublisher>CN=E0A6AF02-E41B-474A-A0A6-DDEC68EB2058</PackageIdentityPublisher>
     <IntermediateOutputPath>D:\Mobile Center\UWPAppForMobileCenterVS2017\UWPAppForMobileCenterVS2017\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
@@ -33,6 +33,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\1\.nuget\packages\Microsoft.Azure.Mobile.Analytics\0.12.0\lib\uap10.0\Microsoft.Azure.Mobile.Analytics.dll">
       <PackagePath>Microsoft.Azure.Mobile.Analytics.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\1\.nuget\packages\Microsoft.Azure.Mobile.Push\0.12.0\lib\uap10.0\Microsoft.Azure.Mobile.Push.dll">
+      <PackagePath>Microsoft.Azure.Mobile.Push.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\1\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>

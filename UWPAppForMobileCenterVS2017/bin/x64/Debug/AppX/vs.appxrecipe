@@ -8,8 +8,8 @@
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
     <SolutionConfiguration>Debug|x64</SolutionConfiguration>
     <PackageArchitecture>x64</PackageArchitecture>
-    <PackageIdentityName>03c8031b-ace8-4bca-828b-ff144c3fb020</PackageIdentityName>
-    <PackageIdentityPublisher>CN=1</PackageIdentityPublisher>
+    <PackageIdentityName>af940c3b-0bf1-4b97-a217-50ef9eb7358b</PackageIdentityName>
+    <PackageIdentityPublisher>CN=E0A6AF02-E41B-474A-A0A6-DDEC68EB2058</PackageIdentityPublisher>
     <IntermediateOutputPath>D:\Mobile Center\UWPAppForMobileCenterVS2017\UWPAppForMobileCenterVS2017\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
@@ -19,25 +19,25 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>D:\Mobile Center\UWPAppForMobileCenterVS2017\UWPAppForMobileCenterVS2017\bin\x64\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>2447738104A5940E4145C0A1B5CB996C440DD198F31339DAB803C3648CDAF1EE</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>03c8031b-ace8-4bca-828b-ff144c3fb020_1.0.0.0_x64__5h4a7qf4dtdxc</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>03c8031b-ace8-4bca-828b-ff144c3fb020_5h4a7qf4dtdxc!App</RegisteredUserModeAppID>
-    <RegisteredPackageID>03c8031b-ace8-4bca-828b-ff144c3fb020</RegisteredPackageID>
-    <RegisteredPackagePublisher>CN=1</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <RegisteredManifestChecksum>AD690E915EEC1C911F5D414A650CE7D4D3130353E62321403E3C7DC31C18A15C</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>43087EvgenyK.MobileCenterTestingApp_1.1.0.0_x64__s2e19kfzp5m48</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>43087EvgenyK.MobileCenterTestingApp_s2e19kfzp5m48!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>43087EvgenyK.MobileCenterTestingApp</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=E0A6AF02-E41B-474A-A0A6-DDEC68EB2058</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.0.0</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="D:\Mobile Center\UWPAppForMobileCenterVS2017\UWPAppForMobileCenterVS2017\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-15T09:31:34.897</Modified>
+      <Modified>2017-06-20T04:56:41.457</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Mobile Center\UWPAppForMobileCenterVS2017\UWPAppForMobileCenterVS2017\bin\x64\Debug\UWPAppForMobileCenterVS2017.exe">
       <PackagePath>entrypoint\UWPAppForMobileCenterVS2017.exe</PackagePath>
-      <Modified>2017-06-15T09:31:34.363</Modified>
+      <Modified>2017-06-20T04:56:35.513</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\1\.nuget\packages\Microsoft.Azure.Mobile\0.12.0\lib\uap10.0\Microsoft.Azure.Mobile.dll">
       <PackagePath>Microsoft.Azure.Mobile.dll</PackagePath>
@@ -46,6 +46,10 @@
     <AppxPackagedFile Include="C:\Users\1\.nuget\packages\Microsoft.Azure.Mobile.Analytics\0.12.0\lib\uap10.0\Microsoft.Azure.Mobile.Analytics.dll">
       <PackagePath>Microsoft.Azure.Mobile.Analytics.dll</PackagePath>
       <Modified>2017-05-19T16:39:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\1\.nuget\packages\Microsoft.Azure.Mobile.Push\0.12.0\lib\uap10.0\Microsoft.Azure.Mobile.Push.dll">
+      <PackagePath>Microsoft.Azure.Mobile.Push.dll</PackagePath>
+      <Modified>2017-05-19T16:39:42.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\1\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -583,7 +587,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Mobile Center\UWPAppForMobileCenterVS2017\UWPAppForMobileCenterVS2017\bin\x64\Debug\UWPAppForMobileCenterVS2017.xr.xml">
       <PackagePath>UWPAppForMobileCenterVS2017.xr.xml</PackagePath>
-      <Modified>2017-06-15T06:38:46.827</Modified>
+      <Modified>2017-06-20T04:56:35.193</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.15063.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -592,11 +596,11 @@
     <AppxPackagedFile Include="D:\Mobile Center\UWPAppForMobileCenterVS2017\UWPAppForMobileCenterVS2017\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-15T09:15:49.717</Modified>
+      <Modified>2017-06-20T04:56:40.362</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Mobile Center\UWPAppForMobileCenterVS2017\UWPAppForMobileCenterVS2017\bin\x64\Debug\Core\UWPAppForMobileCenterVS2017.exe">
       <PackagePath>UWPAppForMobileCenterVS2017.exe</PackagePath>
-      <Modified>2017-06-15T09:31:34.893</Modified>
+      <Modified>2017-06-20T04:56:41.445</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

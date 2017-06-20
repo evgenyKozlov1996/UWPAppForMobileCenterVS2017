@@ -230,3 +230,4 @@ D:\Mobile Center\UWPAppForMobileCenterVS2017\UWPAppForMobileCenterVS2017\obj\x64
 D:\Mobile Center\UWPAppForMobileCenterVS2017\UWPAppForMobileCenterVS2017\obj\x64\Debug\resources.en-us.resfiles.intermediate
 D:\Mobile Center\UWPAppForMobileCenterVS2017\UWPAppForMobileCenterVS2017\obj\x64\Debug\resources.en.resfiles.intermediate
 D:\Mobile Center\UWPAppForMobileCenterVS2017\UWPAppForMobileCenterVS2017\obj\x64\Debug\ProjectArchitectures.txt
+D:\Mobile Center\UWPAppForMobileCenterVS2017\UWPAppForMobileCenterVS2017\bin\x64\Debug\Microsoft.Azure.Mobile.Push.dll

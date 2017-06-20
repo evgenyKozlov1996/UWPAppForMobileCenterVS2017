@@ -8,7 +8,27 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBox x:ConnectionId='1' x:Name="output" Grid.Row="0" Margin="5,5,5,5" HorizontalAlignment="Stretch" TextWrapping="Wrap" AcceptsReturn="True"></TextBox>
+        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+        <StackPanel Grid.Row="1" HorizontalAlignment="Stretch" Margin="5,5,5,5">
+            <Button x:ConnectionId='2' x:Name="analytics16" HorizontalAlignment="Stretch" Margin="0,5,0,0"                          >Analytics-16</Button>
+            <Button x:ConnectionId='3' x:Name="analytics18" HorizontalAlignment="Stretch" Margin="0,5,0,0"                          >Analytics-18</Button>
+            <Button x:ConnectionId='4' x:Name="analytics19" HorizontalAlignment="Stretch" Margin="0,5,0,0"                          >Analytics-19</Button>
+            <Button x:ConnectionId='5' x:Name="analytics20" HorizontalAlignment="Stretch" Margin="0,5,0,0"                          >Analytics-20</Button>
+            <Button x:ConnectionId='6' x:Name="analytics21" HorizontalAlignment="Stretch" Margin="0,5,0,0"                          >Analytics-21</Button>
+            <Button x:ConnectionId='7' x:Name="analytics22" HorizontalAlignment="Stretch" Margin="0,5,0,0"                          >Analytics-22</Button>
+            <Button x:ConnectionId='8' x:Name="analytics23" HorizontalAlignment="Stretch" Margin="0,5,0,0"                          >Analytics-23</Button>
+            <Button x:ConnectionId='9' x:Name="analytics24" HorizontalAlignment="Stretch" Margin="0,5,0,0"                          >Analytics-24</Button>
+            <Button x:ConnectionId='10' x:Name="analitycs25" HorizontalAlignment="Stretch" Margin="0,5,0,0"                          >Analytics-25</Button>
+            <Button x:ConnectionId='11' x:Name="analitycs26" HorizontalAlignment="Stretch" Margin="0,5,0,0"                          >Analytics-26</Button>
+            <Button x:ConnectionId='12' x:Name="analitycs27" HorizontalAlignment="Stretch" Margin="0,5,0,0"                          >Analytics-27</Button>
+        </StackPanel>
+        </ScrollViewer>
     </Grid>
+    
 </Page>
 
