@@ -19,19 +19,19 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>D:\Mobile Center\UWPAppForMobileCenterVS2017\UWPAppForMobileCenterVS2017\bin\x64\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>B4BB205647C18903FB88617158093344737870CC01EE80C9490D2383253C145D</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>43087EvgenyK.MobileCenterTestingApp_1.1.0.0_x64__s2e19kfzp5m48</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>C3AFF453B6D215B0C43A82DCC05161B5E2D848868E4AFF925FF1805D7ADA87CE</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>43087EvgenyK.MobileCenterTestingApp_1.2.0.0_x64__s2e19kfzp5m48</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>43087EvgenyK.MobileCenterTestingApp_s2e19kfzp5m48!App</RegisteredUserModeAppID>
     <RegisteredPackageID>43087EvgenyK.MobileCenterTestingApp</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=E0A6AF02-E41B-474A-A0A6-DDEC68EB2058</RegisteredPackagePublisher>
-    <RegisteredVersion>1.1.0.0</RegisteredVersion>
+    <RegisteredVersion>1.2.0.0</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="D:\Mobile Center\UWPAppForMobileCenterVS2017\UWPAppForMobileCenterVS2017\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-20T05:46:30.789</Modified>
+      <Modified>2017-06-20T06:02:55.388</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -608,11 +608,11 @@
     <AppxPackagedFile Include="D:\Mobile Center\UWPAppForMobileCenterVS2017\UWPAppForMobileCenterVS2017\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-20T05:33:23.456</Modified>
+      <Modified>2017-06-20T06:02:52.953</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Mobile Center\UWPAppForMobileCenterVS2017\UWPAppForMobileCenterVS2017\bin\x64\Debug\Core\UWPAppForMobileCenterVS2017.exe">
       <PackagePath>UWPAppForMobileCenterVS2017.exe</PackagePath>
-      <Modified>2017-06-20T05:46:30.786</Modified>
+      <Modified>2017-06-20T06:02:55.343</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
