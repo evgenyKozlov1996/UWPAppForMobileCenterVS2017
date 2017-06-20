@@ -28,11 +28,17 @@
     <AppxPackagedFile Include="D:\Mobile Center\UWPAppForMobileCenterVS2017\UWPAppForMobileCenterVS2017\bin\x64\Debug\UWPAppForMobileCenterVS2017.exe">
       <PackagePath>entrypoint\UWPAppForMobileCenterVS2017.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\1\.nuget\packages\microsoft.azure.mobile.crashes\0.12.0\build\uap10.0\..\..\runtimes\win10-x64\native\WatsonRegistrationUtility.dll">
+      <PackagePath>WatsonRegistrationUtility.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\1\.nuget\packages\Microsoft.Azure.Mobile\0.12.0\lib\uap10.0\Microsoft.Azure.Mobile.dll">
       <PackagePath>Microsoft.Azure.Mobile.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\1\.nuget\packages\Microsoft.Azure.Mobile.Analytics\0.12.0\lib\uap10.0\Microsoft.Azure.Mobile.Analytics.dll">
       <PackagePath>Microsoft.Azure.Mobile.Analytics.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\1\.nuget\packages\Microsoft.Azure.Mobile.Crashes\0.12.0\runtimes\win10-x64\lib\uap10.0\Microsoft.Azure.Mobile.Crashes.dll">
+      <PackagePath>Microsoft.Azure.Mobile.Crashes.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\1\.nuget\packages\Microsoft.Azure.Mobile.Push\0.12.0\lib\uap10.0\Microsoft.Azure.Mobile.Push.dll">
       <PackagePath>Microsoft.Azure.Mobile.Push.dll</PackagePath>
@@ -408,6 +414,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\1\.nuget\packages\System.Xml.XmlSerializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\1\.nuget\packages\Microsoft.Azure.Mobile.Crashes\0.12.0\runtimes\win10-x64\lib\uap10.0\WatsonRegistrationUtility.winmd">
+      <PackagePath>WatsonRegistrationUtility.winmd</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Mobile Center\UWPAppForMobileCenterVS2017\UWPAppForMobileCenterVS2017\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>

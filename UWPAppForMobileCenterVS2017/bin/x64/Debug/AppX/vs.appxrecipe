@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>D:\Mobile Center\UWPAppForMobileCenterVS2017\UWPAppForMobileCenterVS2017\bin\x64\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>AD690E915EEC1C911F5D414A650CE7D4D3130353E62321403E3C7DC31C18A15C</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>B4BB205647C18903FB88617158093344737870CC01EE80C9490D2383253C145D</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>43087EvgenyK.MobileCenterTestingApp_1.1.0.0_x64__s2e19kfzp5m48</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>43087EvgenyK.MobileCenterTestingApp_s2e19kfzp5m48!App</RegisteredUserModeAppID>
     <RegisteredPackageID>43087EvgenyK.MobileCenterTestingApp</RegisteredPackageID>
@@ -31,13 +31,17 @@
     <AppXManifest Include="D:\Mobile Center\UWPAppForMobileCenterVS2017\UWPAppForMobileCenterVS2017\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-20T05:19:42.526</Modified>
+      <Modified>2017-06-20T05:40:17.084</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Mobile Center\UWPAppForMobileCenterVS2017\UWPAppForMobileCenterVS2017\bin\x64\Debug\UWPAppForMobileCenterVS2017.exe">
       <PackagePath>entrypoint\UWPAppForMobileCenterVS2017.exe</PackagePath>
-      <Modified>2017-06-20T05:19:41.682</Modified>
+      <Modified>2017-06-20T05:40:16.803</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\1\.nuget\packages\microsoft.azure.mobile.crashes\0.12.0\build\uap10.0\..\..\runtimes\win10-x64\native\WatsonRegistrationUtility.dll">
+      <PackagePath>WatsonRegistrationUtility.dll</PackagePath>
+      <Modified>2017-05-19T16:39:42.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\1\.nuget\packages\Microsoft.Azure.Mobile\0.12.0\lib\uap10.0\Microsoft.Azure.Mobile.dll">
       <PackagePath>Microsoft.Azure.Mobile.dll</PackagePath>
@@ -46,6 +50,10 @@
     <AppxPackagedFile Include="C:\Users\1\.nuget\packages\Microsoft.Azure.Mobile.Analytics\0.12.0\lib\uap10.0\Microsoft.Azure.Mobile.Analytics.dll">
       <PackagePath>Microsoft.Azure.Mobile.Analytics.dll</PackagePath>
       <Modified>2017-05-19T16:39:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\1\.nuget\packages\Microsoft.Azure.Mobile.Crashes\0.12.0\runtimes\win10-x64\lib\uap10.0\Microsoft.Azure.Mobile.Crashes.dll">
+      <PackagePath>Microsoft.Azure.Mobile.Crashes.dll</PackagePath>
+      <Modified>2017-05-19T16:39:42.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\1\.nuget\packages\Microsoft.Azure.Mobile.Push\0.12.0\lib\uap10.0\Microsoft.Azure.Mobile.Push.dll">
       <PackagePath>Microsoft.Azure.Mobile.Push.dll</PackagePath>
@@ -547,6 +555,10 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-11T20:15:04.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\1\.nuget\packages\Microsoft.Azure.Mobile.Crashes\0.12.0\runtimes\win10-x64\lib\uap10.0\WatsonRegistrationUtility.winmd">
+      <PackagePath>WatsonRegistrationUtility.winmd</PackagePath>
+      <Modified>2017-05-19T16:39:42.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Mobile Center\UWPAppForMobileCenterVS2017\UWPAppForMobileCenterVS2017\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2017-06-15T06:14:13.484</Modified>
@@ -596,11 +608,11 @@
     <AppxPackagedFile Include="D:\Mobile Center\UWPAppForMobileCenterVS2017\UWPAppForMobileCenterVS2017\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-20T04:56:40.362</Modified>
+      <Modified>2017-06-20T05:33:23.456</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Mobile Center\UWPAppForMobileCenterVS2017\UWPAppForMobileCenterVS2017\bin\x64\Debug\Core\UWPAppForMobileCenterVS2017.exe">
       <PackagePath>UWPAppForMobileCenterVS2017.exe</PackagePath>
-      <Modified>2017-06-20T05:19:42.513</Modified>
+      <Modified>2017-06-20T05:40:17.081</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
