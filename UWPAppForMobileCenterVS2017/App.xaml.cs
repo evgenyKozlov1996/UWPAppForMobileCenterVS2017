@@ -1,5 +1,6 @@
 ﻿using Microsoft.Azure.Mobile;
 using Microsoft.Azure.Mobile.Analytics;
+using Microsoft.Azure.Mobile.Push;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -19,10 +20,10 @@ using Windows.UI.Xaml.Navigation;
 
 namespace UWPAppForMobileCenterVS2017
 {
-    /// <summary>
-    /// Обеспечивает зависящее от конкретного приложения поведение, дополняющее класс Application по умолчанию.
-    /// </summary>
-    sealed partial class App : Application
+	/// <summary>
+	/// Обеспечивает зависящее от конкретного приложения поведение, дополняющее класс Application по умолчанию.
+	/// </summary>
+	sealed partial class App : Application
     {
         /// <summary>
         /// Инициализирует одноэлементный объект приложения.  Это первая выполняемая строка разрабатываемого
@@ -42,7 +43,9 @@ namespace UWPAppForMobileCenterVS2017
         protected override void OnLaunched(LaunchActivatedEventArgs e)
         {
             Frame rootFrame = Window.Current.Content as Frame;
-			MobileCenter.Start("cd90f55c-a058-42eb-bcf7-10016ce897ea", typeof(Analytics));
+			
+			
+			
 			// Не повторяйте инициализацию приложения, если в окне уже имеется содержимое,
 			// только обеспечьте активность окна
 			if (rootFrame == null)
@@ -72,7 +75,9 @@ namespace UWPAppForMobileCenterVS2017
                 }
                 // Обеспечение активности текущего окна
                 Window.Current.Activate();
-            }
+				MobileCenter.SetCountryCode("alb");
+				MobileCenter.Start("cd90f55c-a058-42eb-bcf7-10016ce897ea", typeof(Analytics), typeof(Push));
+			}
         }
 
         /// <summary>
